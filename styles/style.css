@@ -478,7 +478,8 @@ p{
         display: block;
     }
     .proy__imgs{
-        display: none;
+        margin-top: 40px;
+        justify-content: center;
     }
     
 }

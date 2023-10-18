@@ -22,6 +22,7 @@ p{
 
 /**Header**/
 .header{
+    overflow: hidden;
     height: 100vh;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url(../img/tech.jpg);
 }
@@ -182,6 +183,7 @@ p{
     margin: auto;
     padding-top: 300px;
     margin-bottom: 300px;
+    overflow: hidden;
 }
 
 .section-container-100{
@@ -189,6 +191,7 @@ p{
     margin: auto;
     padding-top: 100px;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 600px){
@@ -405,7 +408,11 @@ p{
 }
 
 .proy__data--flex-b-40{
-    flex-basis: 45%;
+    flex-basis: 40%;
+}
+
+.proy__data--flex-b-80{
+    flex-basis: 80%;
 }
 
 .proy__img{
